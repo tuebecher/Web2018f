@@ -17,6 +17,10 @@ namespace MyFirstObjectApp
             Console.WriteLine("Area:" + c.Area);
             Console.ReadLine();
 
+            
+
+
+
 
             Point p = new Point();
 
