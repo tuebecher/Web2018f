@@ -11,6 +11,8 @@ namespace MyFirstObjectApp
         private int x;
         private int y;
 
+
+
         public Point()
         {
             this.x = 0;

@@ -11,6 +11,16 @@ namespace MyFirstObjectApp
         static void Main(string[] args)
         {
 
+            Circle c = new Circle(new Point(3,5), 14);
+            Console.WriteLine(c.ToString());
+            Console.WriteLine("Diameter:" + c.Diameter);
+            Console.WriteLine("Area:" + c.Area);
+            Console.ReadLine();
+
+
+            Point p = new Point();
+
+
             Point p1 = new Point();
             Point p2 = new Point();
 
