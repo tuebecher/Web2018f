@@ -67,11 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ArrayPlay.aspx" />
     <Content Include="ListBoxExample.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayPlay.aspx.cs">
+      <DependentUpon>ArrayPlay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ArrayPlay.aspx.designer.cs">
+      <DependentUpon>ArrayPlay.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ListBoxExample.aspx.cs">
       <DependentUpon>ListBoxExample.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
