@@ -20,6 +20,12 @@ namespace BirdInheritance
             ListBox1.Items.Add(b3.SayTweet());
             ListBox1.Items.Add(((Songbird)b3).NumberOfSongs.ToString());
 
+            Owl b4 = new Owl("Snowowl", "White");
+
+            ListBox1.Items.Add(b4.ToString());
+            b4.ChangeColor("Green");
+            ListBox1.Items.Add(b4.ToString());
+
         }
     }
 }

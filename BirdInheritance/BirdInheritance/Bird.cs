@@ -19,7 +19,7 @@ namespace BirdInheritance
         public string Color
         {
             get { return color; }
-            private set { color = value; }
+            protected set { color = value; }
         }
 
         public Bird(string species, string color)
