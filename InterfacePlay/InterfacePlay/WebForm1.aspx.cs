@@ -33,6 +33,19 @@ namespace InterfacePlay
             }
 
 
+            Car[] cars = new Car[4];
+            cars[0] = new Car("Fiat", 4, 162);
+            cars[1] = new Car("BMW", 3, 80);
+            cars[2] = new Car("Toyota", 4, 192);
+            cars[3] = new Car("vw", 4, 320);
+
+            Util.BubbleSort(cars);
+            foreach (Car c in cars)
+            {
+                ListBox1.Items.Add(c.ToString());
+            }
+
+
         }
     }
 }
