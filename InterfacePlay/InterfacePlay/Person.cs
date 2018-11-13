@@ -25,11 +25,11 @@ namespace InterfacePlay
 
         public int CompareItems(object obj)
         {
-            if (Age > ((Person)obj).Age)
+            if (Height > ((Person)obj).Height)
             {
                 return 1; // this is the largest
             }
-            else if (Age == ((Person)obj).Age)
+            else if (Height == ((Person)obj).Height)
             {
                 return 0; // identical
             }

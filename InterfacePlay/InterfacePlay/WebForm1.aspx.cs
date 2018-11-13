@@ -24,6 +24,14 @@ namespace InterfacePlay
                 ListBox1.Items.Add(p.ToString());
             }
 
+            ListBox1.Items.Add("Lets call bubblesort...");
+            Util.BubbleSort(people);
+
+            foreach (Person p in people)
+            {
+                ListBox1.Items.Add(p.ToString());
+            }
+
 
         }
     }
